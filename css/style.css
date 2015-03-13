@@ -7,6 +7,12 @@ body{
 #mainStatement{
     text-align: center;
     margin-top: 10%;
+    font-size: 45px;
+}
+
+.MainContainer{
+    width: 75%;
+    margin-left: 20%;
 }
 
 .nav .open > a,
@@ -14,12 +20,29 @@ body{
 .nav .open > a:focus {background-color: transparent;}
 
 .textBoxFieldContainer{
-    width: 55%;
-    margin-top: 3%;
+    width: 88%;
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
-    /*position: fixed;*/
-    /*left: 25%;*/
+}
+
+.OptionsContainer1, .OptionsContainer2{
+    width: 31%;
+    height: 400px;
+    border-radius: 1%;
+    padding: 25px 10px 10px 15px;
+    margin-top: 3%;
+    box-shadow: 0 0 10px #888888;
+}
+
+.OptionsContainer1{
+    position: fixed;
+    left: 25%;
+}
+
+.OptionsContainer2{
+    position: fixed;
+    left: 59%;
 }
 
 .navbar{
@@ -143,6 +166,16 @@ body{
     font-size: 25px;
 }
 
+
+/*Voter Styles*/
+
+.voting_wrapper {display:inline-block;margin-left: 20px;}
+.voting_wrapper .down_button {background: url(images/thumbs.png) no-repeat;float: left;height: 14px;width: 16px;cursor:pointer;margin-top: 3px;}
+.voting_wrapper .down_button:hover {background: url(images/thumbs.png) no-repeat 0px -16px;}
+.voting_wrapper .up_button {background: url(images/thumbs.png) no-repeat -16px 0px;float: left;height: 14px;width: 16px;cursor:pointer;}
+.voting_wrapper .up_button:hover{background: url(images/thumbs.png) no-repeat -16px -16px;;}
+.voting_btn{float:left;margin-right:5px;}
+.voting_btn span{font-size: 11px;float: left;margin-left: 3px;}
 
 
 
